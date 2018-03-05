@@ -41,4 +41,17 @@ header[role="banner"] #logo-main {
   padding-right: 30px;
 }
 
+section {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+section, .container, .container-fluid {
+  position: relative;
+  word-wrap: break-word;
+}
+
+section {
+  background-color: #eeeeee;
+}

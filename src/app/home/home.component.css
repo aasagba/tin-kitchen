@@ -32,11 +32,11 @@
 }
 
 .welcome-section {
-  height:900px;width: 100%;
+  height:240px;width: 100%;
 }
 
 .intro-title {
-  position: absolute;
+  position: relative;
   width: 100%;
   max-width: 430px;
   height: auto;
@@ -57,7 +57,7 @@
       padding: 35px 18px 25px 18px;
       left: 50%;
       top: 30%;
-      margin: -165px 0 0 -140px;
+      margin: -112px 0 0 -140px;
       background-color: gray;
     }
 
@@ -67,7 +67,7 @@
   }
 
   .welcome-section {
-    height:770px;
+    height:270px;
   }
 
   }

@@ -12,7 +12,8 @@ body, html {
 /* alyson-mcphee-499812-unsplash */
 .hero-image {
     background-image: url("./assets/img/Posh_Toast_2.jpg");
-    height: 100%;
+    /*height: 100%;*/
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +21,9 @@ body, html {
 }
 
 @media only screen and (max-width: 768px) {
-
+  .hero-image {
+    height: 600px;
+  }
 }
 
 .hero-text {
