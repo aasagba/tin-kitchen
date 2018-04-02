@@ -12,7 +12,8 @@ html {
 }
 
 .container {
-  max-width: 960px;
+  /* max-width: 960px; */
+  max-width: 1078px;
 }
 
 header {
@@ -54,4 +55,70 @@ section, .container, .container-fluid {
 
 section {
   background-color: #eeeeee;
+}
+
+footer i {
+  display: block;
+  text-align: center;
+  width: 9%;
+  float: left;
+  font-size: 1.7em;
+}
+
+footer {
+  font-size: 1.3em;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.social-bar {
+  text-align: center;
+}
+
+.social-bar a {
+  margin-right: 11px;
+  display: inline-block;
+  font-size: 1.20em;
+  text-decoration: none;
+  color: #057388;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: opacity 350ms ease;
+  -moz-transition: opacity 350ms ease;
+  -o-transition: opacity 350ms ease;
+  transition: opacity 350ms ease;
+  -webkit-appearance: none;
+}
+
+.btn-floating {
+  width: 47px;
+  height: 47px;
+  position: relative;
+  z-index: 1;
+  vertical-align: middle;
+  display: inline-block;
+  /*overflow: hidden;*/
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  /*margin: 10px;*/
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-floating a {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.links a{
+  cursor: pointer;
+  text-decoration: none;
+  color: #00afd1;
+}
+
+.address p {
+  color: #616060;
 }
