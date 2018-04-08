@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
   title: string;
+  map: any = {
+    lat: 51.6311379,
+    lng: -0.725792,
+    zoom: 12,
+    title: 'Tin Kitchen',
+    label: 'Tin Kitchen',
+  };
+
   constructor() {
       this.title = "Contact Us";
   }

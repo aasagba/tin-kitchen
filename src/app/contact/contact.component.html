@@ -15,7 +15,17 @@
 
   <div class="user-content row-spacing lightboximages">
     <div id="contact" class="clearfix">
-
+      <agm-map [latitude]="map.lat" [longitude]="map.lng" [zoom]="map.zoom">
+        <agm-marker [latitude]="map.lat" [longitude]="map.lng" [title]="map.title">
+          <agm-snazzy-info-window [maxWidth]="200" [closeWhenOthersOpen]="true">
+            <ng-template>
+              <p class="info-window-title">Tin Kitchen</p>
+              <p>2 The Quadrangle, High Wycombe HP13 7QR</p>
+              <p>M: 07794 742223</p>
+            </ng-template>
+          </agm-snazzy-info-window>
+        </agm-marker>
+      </agm-map>
     </div>
   </div>
 </div>

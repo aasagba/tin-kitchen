@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MediaComponent } from './media/media.component';
 import { EventsComponent } from './events/events.component';
 
+import { AgmCoreModule } from '@agm/core';
+import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 
 @NgModule({
   declarations: [
@@ -22,6 +24,10 @@ import { EventsComponent } from './events/events.component';
   imports: [
     BrowserModule,
     routing,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyAoNeswoDqEloGh6Yg6vBL4cp1TKBFz73o'
+    }),
+    AgmSnazzyInfoWindowModule
   ],
   providers: [],
   bootstrap: [AppComponent]
